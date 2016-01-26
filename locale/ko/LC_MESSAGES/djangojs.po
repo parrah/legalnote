@@ -99,16 +99,16 @@ msgstr "검색 결과를 확인하기 위해서는, 2개 이상의 문자가 필
 
 #: media/js/live_search.js:220
 msgid "Ask Your Question"
-msgstr "귀하의 의문점을 질문하세요"
+msgstr "질문하세요"
 
 #: media/js/live_search.js:301
 msgid "Sorry, this tag does not exist"
 msgid_plural "Sorry, these tags do not exist"
-msgstr[0] "죄송합니다, 그 tag가 존재하지 않습니다."
+msgstr[0] "죄송합니다, 태그가 존재하지 않습니다."
 
 #: media/js/live_search.js:315
 msgid "search or ask your question"
-msgstr "의문점을 질문하거나 검색"
+msgstr "질문하거나 검색"
 
 #: media/js/post.js:28
 msgid "loading..."
@@ -120,7 +120,7 @@ msgstr "적어도 하나의 태그를 입력하십시오."
 
 #: media/js/post.js:131
 msgid "details are required"
-msgstr "details이 필요합니다."
+msgstr "상세사항이 필요합니다."
 
 #: media/js/post.js:134
 #, c-format
@@ -152,11 +152,11 @@ msgstr "질문으로 돌아가기"
 
 #: media/js/post.js:332
 msgid "Merge"
-msgstr "머지"
+msgstr "합치기"
 
 #: media/js/post.js:336 media/js/post.js.c:388
 msgid "Load preview"
-msgstr "미리보기 불러오기"
+msgstr "미리보기"
 
 #: media/js/post.js:348
 msgid "messages"
@@ -168,7 +168,7 @@ msgstr "취소"
 
 #: media/js/post.js:433
 msgid "draft saved..."
-msgstr "대기 저장..."
+msgstr "초안 저장..."
 
 #: media/js/post.js:676
 msgid "insufficient privilege"
@@ -204,7 +204,7 @@ msgstr "익명의 사용자는 글을 삭제 또는 삭제 취소할 수 없습�
 
 #: media/js/post.js:694
 msgid "post recovered"
-msgstr "글이 복원되었습니다!"
+msgstr "글이 복원되었습니다"
 
 #: media/js/post.js:695
 msgid "post deleted"
@@ -230,19 +230,19 @@ msgstr "<div class=\"following\">팔로잉</div><div class=\"unfollow\">언팔�
 
 #: media/js/post.js:1029
 msgid "remove flag"
-msgstr "플래그를 제거"
+msgstr "신고 제거"
 
 #: media/js/post.js:1063 media/js/post.js.c:1092
 msgid "flag offensive"
-msgstr "이 글은 욕설, 광고, 스팸, 악의적인 내용이 포함되어 있습니까?"
+msgstr "신고"
 
 #: media/js/post.js:1118 media/js/post.js.c:1622
 msgid "undelete"
-msgstr "이 글을 삭제 하시겠습니까?"
+msgstr "삭제 취소"
 
 #: media/js/post.js:1123 media/js/post.js.c:1626
 msgid "delete"
-msgstr "글이 삭제되었습니다."
+msgstr "삭제"
 
 #: media/js/post.js:1342 media/js/post.js.c:1570
 msgid "sorry, something is not right here"
@@ -286,15 +286,15 @@ msgstr "사소한 수정(알림을 보내지 않음)"
 
 #: media/js/post.js:2011
 msgid "Are you sure you don't want to post this comment?"
-msgstr "이 post에 댓글을 삭제 하실 건가요?"
+msgstr "이 댓글을 작성하지 않으시겠습니까?"
 
 #: media/js/post.js:2046 media/js/utils.js:3916 media/js/utils.js.c:4071
 msgid "just now"
-msgstr "지금 당장"
+msgstr "방금"
 
 #: media/js/post.js:2112
 msgid "delete this comment"
-msgstr "클릭하여 이 댓글 수정"
+msgstr "이 댓글 삭제"
 
 #: media/js/post.js:2427
 msgid "confirm delete comment"
@@ -318,7 +318,7 @@ msgstr "저장"
 
 #: media/js/post.js:3361
 msgid "Enter the logo url or upload an image"
-msgstr "logo url을 입력하시거나 이미지를 업로드 해주십시오."
+msgstr "로고의 url을 입력하시거나 이미지를 업로드 해주십시오."
 
 #: media/js/post.js:3387
 msgid "Do you really want to remove the image?"
@@ -326,11 +326,11 @@ msgstr "이미지를 삭제하길 원하십니까?"
 
 #: media/js/post.js:3503
 msgid "change logo"
-msgstr "logo 변경"
+msgstr "로고 변경"
 
 #: media/js/post.js:3504
 msgid "add logo"
-msgstr "logo 추가"
+msgstr "로고 추가"
 
 #: media/js/post.js:3652
 #, c-format
@@ -345,7 +345,7 @@ msgstr[0] "%s tag에 대한 최대 허용."
 
 #: media/js/post.js:4007
 msgid "Delete category?"
-msgstr "카테고리 삭제 하시겠습니까?"
+msgstr "카테고리를 삭제하시겠습니까?"
 
 #: media/js/post.js:4096 media/js/utils.js:1384
 msgid "edit"
@@ -353,7 +353,7 @@ msgstr "수정"
 
 #: media/js/post.js:4183
 msgid "category name cannot be empty"
-msgstr "최소 하나의 tag를 입력해 주십시오."
+msgstr "최소 하나의 태그를 입력해 주십시오."
 
 #: media/js/post.js:4219
 msgid "already exists at the current level!"
@@ -365,7 +365,7 @@ msgstr "카테고리 추가"
 
 #: media/js/post.js:4802
 msgid "save tags"
-msgstr "tags 저장"
+msgstr "태그 저장"
 
 #: media/js/post.js:4911
 msgid "Group name:"
@@ -450,7 +450,7 @@ msgstr "그리고"
 
 #: media/js/utils.js:173
 msgid "click to close"
-msgstr "close를 선택"
+msgstr "클릭하여 닫기"
 
 #: media/js/utils.js:683
 #, c-format
@@ -529,7 +529,7 @@ msgstr "새로운 그룹 추가"
 
 #: media/js/utils.js:2695
 msgid "Group %(name)s already exists. Group names are case-insensitive."
-msgstr "그룹 %(name)s이 존재합니다. 그룹 이름은 대소문자 구분합니다."
+msgstr "그룹 %(name)s이 존재합니다. 그룹 이름은 대소문자를 구분합니다."
 
 #: media/js/utils.js:2868
 #, c-format
@@ -546,7 +546,7 @@ msgstr "지금부터"
 
 #: media/js/utils.js:3917
 msgid "about a minute"
-msgstr "분에 대해서"
+msgstr "1분 정도"
 
 #: media/js/utils.js:3918
 #, c-format
@@ -555,7 +555,7 @@ msgstr "%d min"
 
 #: media/js/utils.js:3919
 msgid "about an hour"
-msgstr "시간에 대해서"
+msgstr "1시간 정도"
 
 #: media/js/utils.js:3920
 #, c-format
@@ -573,7 +573,7 @@ msgstr "%d 일"
 
 #: media/js/utils.js:3923
 msgid "about a month"
-msgstr "개월에 대해서"
+msgstr "1개월에 정도"
 
 #: media/js/utils.js:3924
 #, c-format
@@ -582,7 +582,7 @@ msgstr "%d 개월"
 
 #: media/js/utils.js:3925
 msgid "about a year"
-msgstr "년도에 대해"
+msgstr "1년 정도"
 
 #: media/js/utils.js:3926
 #, c-format
