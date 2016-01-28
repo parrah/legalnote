@@ -108,7 +108,7 @@ msgstr[0] "죄송합니다, 태그가 존재하지 않습니다."
 
 #: media/js/live_search.js:315
 msgid "search or ask your question"
-msgstr "질문하거나 검색"
+msgstr "검색"
 
 #: media/js/post.js:28
 msgid "loading..."
