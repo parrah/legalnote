@@ -4663,7 +4663,7 @@ msgid "Very active in one tag"
 msgstr "한 개의 태그에 매우 활동적임"
 
 #: models/badges.py:???
-msgid: "Lawyer"
+msgid "Lawyer"
 msgstr "변호사"
 
 #: models/badges.py:???
