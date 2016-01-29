@@ -4662,13 +4662,21 @@ msgstr "전문가"
 msgid "Very active in one tag"
 msgstr "한 개의 태그에 매우 활동적임"
 
+#: models/badges.py:???
+msgid: "Lawyer"
+msgstr "변호사"
+
+#: models/badges.py:???
+msgid "Real lawyer licensed in Korea"
+msgstr "변호사법에 따른 자격을 가진 진짜 변호사"
+
 #: models/message.py:16
 msgid "message"
 msgstr "메시지"
 
 #: models/post.py:802 models/question.py:1532
 msgid "Sharing did not work, because group is unknown"
-msgstr ""
+msgstr "알려지지 않은 그룹이어서 공유할 수 없습니다"
 
 #: models/post.py:824
 msgid "merged revision"
@@ -5772,8 +5780,8 @@ msgid "Signup"
 msgstr "가입"
 
 #: templates/authopenid/confirm_email.txt:1
-msgid "Thank you for registering at our Q&A forum!"
-msgstr "저희 리걸노트에 가입하여 주셔서 감사합니다."
+msgid "Thank you for registering at Legalnote!"
+msgstr "리걸노트에 가입하여 주셔서 감사합니다."
 
 #: templates/authopenid/confirm_email.txt:3
 msgid "Your account details are:"
@@ -5795,8 +5803,8 @@ msgstr "여기서 로그인하세요:"
 #: templates/authopenid/email_validation.txt:13
 msgid ""
 "Sincerely,\n"
-"Q&A Forum Administrator"
-msgstr "사이트 운영자"
+"Legalnote Team"
+msgstr "리걸노트 팀"
 
 #: templates/authopenid/email_validation.html:2
 #: templates/authopenid/email_validation.html:3
@@ -5806,8 +5814,8 @@ msgstr "%(site_name)s 로부터의 인사말"
 
 #: templates/authopenid/email_validation.html:7
 #: templates/authopenid/email_validation.txt:3
-msgid "To make use of the Forum, please follow the link below:"
-msgstr "포럼을 사용하려면, 아래의 링크를 따라가세요:"
+msgid "To use Legalnote, please click the link below:"
+msgstr "리걸노트를 사용하려면, 아래의 링크를 클릭하세요:"
 
 #: templates/authopenid/email_validation.html:11
 #: templates/authopenid/email_validation.txt:7
