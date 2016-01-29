@@ -4971,11 +4971,11 @@ msgstr "금 배지는 이 커뮤니티에서 가장 높은 수상입니다. 이�
 
 #: templates/badges.html:43 templates/badges.html.py:47
 msgid ""
-"silver badge: occasionally awarded for the very high quality contributions"
+"Silver badge: occasionally awarded for the very high quality contributions"
 msgstr "은 배지: 높은 수준의 공헌에 대하여 가끔 포상"
 
 #: templates/badges.html:50 templates/badges.html.py:54
-msgid "bronze badge: often given as a special honor"
+msgid "Bronze badge: often given as a special honor"
 msgstr "동 배지: 특별한 영예로서 종종 주어짐"
 
 #: templates/base.html:23
