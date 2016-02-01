@@ -250,3 +250,7 @@ register_badge_settings(
 )
 
 register_badge_settings('LAWYER', _('Lawyer'))
+
+register_badge_settings('BEOMMUSA', _('Beommusa'))
+
+register_badge_settings('PATENT_ATTORNEY', _('Patent Attorney'))

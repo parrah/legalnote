@@ -893,6 +893,30 @@ class Lawyer(Badge):
             description = _('Real lawyer licensed in Korea')
         )
 
+class Beommusa(Badge):
+    """Badges for real Beommusa"""
+    key = 'beommusa'
+
+    def __init__(self):
+        super(Beommusa, self).__init__(
+            name = _('Beommusa'),
+            level = const.GOLD_BADGE,
+            multiple = False,
+            description = _('Real Beommusa licensed in Korea')
+        )
+
+class PatentAttorney(Badge):
+    """Badges for real Patent Attorneys"""
+    key = 'patent-attorney'
+
+    def __init__(self):
+        super(PatentAttorney, self).__init__(
+            name = _('Patent Attorney'),
+            level = const.GOLD_BADGE,
+            multiple = False,
+            description = _('Real Patent Attorney licensed in Korea')
+        )
+
 ORIGINAL_DATA = """
 
 extra badges from stackexchange

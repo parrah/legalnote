@@ -4670,6 +4670,22 @@ msgstr "변호사"
 msgid "Real lawyer licensed in Korea"
 msgstr "변호사법에 따른 자격을 가진 진짜 변호사"
 
+#: models/badges.py:???
+msgid "Patent Attorney"
+msgstr "변리사"
+
+#: models/badges.py:???
+msgid "Real Patent Attorney licensed in Korea"
+msgstr "변리사법에 따른 자격을 가진 진짜 변리사"
+
+#: models/badges.py:???
+msgid "Beommusa"
+msgstr "법무사"
+
+#: models/badges.py:???
+msgid "Real Beommusa licensed in Korea"
+msgstr "법무사법에 따른 자격을 가진 진짜 변리사"
+
 #: models/message.py:16
 msgid "message"
 msgstr "메시지"
