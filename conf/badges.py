@@ -248,3 +248,5 @@ register_badge_settings(
         'MIN_UPVOTES': (_('minimum upvotes for the answer'), 1)
     }
 )
+
+register_badge_settings('LAWYER', _('Lawyer'))

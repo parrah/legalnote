@@ -1,6 +1,6 @@
-{% trans %}Greetings from the Q&A forum{% endtrans %},
+{% trans %}Greetings from Legalnote{% endtrans %},
 
-{% trans %}To make use of the Forum, please follow the link below:{% endtrans %}
+{% trans %}To use Legalnote, please click the link below:{% endtrans %}
 
 {{validation_link}}
 
