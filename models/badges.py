@@ -12,7 +12,7 @@ Badges in this file are connected with the contents of BadgeData
 via key, determined as a slugified version of badge name.
 
 To implement a new badge, one must create a subclass of Badge,
-adde it to BADGES dictionary, register with event in EVENTS_TO_BADGES
+add it to BADGES dictionary, register with event in EVENTS_TO_BADGES
 and make sure that a signal `award_badges_signal` is sent with the
 corresponding event name, actor (user object), context_object and optionally
 - timestamp
@@ -879,6 +879,18 @@ class Expert(Badge):
             level = const.SILVER_BADGE,
             multiple = False,
             description = _('Very active in one tag')
+        )
+
+class Lawyer(Badge):
+    """Badges for real lawyers"""
+    key = 'lawyer'
+
+    def __init__(self):
+        super(Lawyer, self).__init__(
+            name = _('Lawyer'),
+            level = const.GOLD_BADGE,
+            multiple = False,
+            description = _('Real lawyer licensed in Korea')
         )
 
 ORIGINAL_DATA = """
