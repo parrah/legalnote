@@ -606,11 +606,11 @@ msgstr "배지 설정"
 
 #: conf/badges.py:23
 msgid "Disciplined: minimum upvotes for deleted post"
-msgstr "훈련: 삭제된 글에 대한 최소 올리기"
+msgstr "자기검열: 삭제된 글에 대한 최소 올리기"
 
 #: conf/badges.py:32
 msgid "Peer Pressure: minimum downvotes for deleted post"
-msgstr "동료의 압박: 삭제된 글에 대한 최소 내리기"
+msgstr "압박: 삭제된 글에 대한 최소 내리기"
 
 #: conf/badges.py:41
 msgid "Teacher: minimum upvotes for the answer"
@@ -658,11 +658,11 @@ msgstr "자문자답: 최소 답변 올리기"
 
 #: conf/badges.py:140
 msgid "Civic Duty: minimum votes"
-msgstr "시민의 의무: 최소 투표"
+msgstr "올림: 최소 투표"
 
 #: conf/badges.py:149
 msgid "Enlightened Duty: minimum upvotes"
-msgstr "정통한 직무 : 최소 올리기"
+msgstr "예지력 : 최소 올리기"
 
 #: conf/badges.py:158
 msgid "Guru: minimum upvotes"
@@ -698,7 +698,7 @@ msgstr "정리의 달인:  최소 태그 사용 수"
 
 #: conf/badges.py:230
 msgid "Enthusiast: minimum days"
-msgstr "개근상: 최소 일수"
+msgstr "개근: 최소 일수"
 
 #: conf/email.py:15
 msgid "Email and email alert settings"
@@ -4447,7 +4447,7 @@ msgstr "%(votes)s 이상의 올리기로 자신의 게시물을 삭제"
 
 #: models/badges.py:134
 msgid "Disciplined"
-msgstr "모범생"
+msgstr "자기검열"
 
 #: models/badges.py:152
 #, python-format
@@ -4456,7 +4456,7 @@ msgstr "%(votes)s 이상의 감점을 받아 삭제된 게시물"
 
 #: models/badges.py:156
 msgid "Peer Pressure"
-msgstr "동료의 압박"
+msgstr "압박"
 
 #: models/badges.py:175
 #, python-format
@@ -4470,7 +4470,7 @@ msgstr "선생님"
 
 #: models/badges.py:222
 msgid "Supporter"
-msgstr "조력자"
+msgstr "도움"
 
 #: models/badges.py:223
 msgid "First upvote"
@@ -4478,7 +4478,7 @@ msgstr "최초 올리기"
 
 #: models/badges.py:231
 msgid "Critic"
-msgstr "비평가"
+msgstr "비평"
 
 #: models/badges.py:232
 msgid "First downvote"
@@ -4486,7 +4486,7 @@ msgstr "첫 내리기"
 
 #: models/badges.py:241
 msgid "Civic Duty"
-msgstr "시민의 의무"
+msgstr "올림"
 
 #: models/badges.py:242
 #, python-format
@@ -4500,7 +4500,7 @@ msgstr ""
 
 #: models/badges.py:265
 msgid "Self-Learner"
-msgstr "자기 주도 학습자"
+msgstr "자문자답"
 
 #: models/badges.py:318 models/badges.py:333 models/badges.py:348
 #, python-format
@@ -4542,12 +4542,12 @@ msgstr "학자"
 
 #: models/badges.py:533
 msgid "Enlightened"
-msgstr "선각자"
+msgstr "예지력"
 
 #: models/badges.py:537 models/badges.py:552
 #, python-format
 msgid "%(gave_accepted_answer)s upvoted %(num)s or more times"
-msgstr ""
+msgstr "%(num)s 이상 올려질 질문을 미리 채택 %(gave_accepted_answer)s"
 
 #: models/badges.py:548
 msgid "Guru"
@@ -4562,11 +4562,11 @@ msgstr ""
 
 #: models/badges.py:573
 msgid "Necromancer"
-msgstr "족집게 도사"
+msgstr "묵은 질문"
 
 #: models/badges.py:596
 msgid "Citizen Patrol"
-msgstr "시민 패트롤"
+msgstr "순찰"
 
 #: models/badges.py:599
 msgid "First flagged post"
@@ -4590,7 +4590,7 @@ msgstr "10 이상의 점수로 10 개의 댓글을 남김"
 
 #: models/badges.py:661
 msgid "Editor"
-msgstr "편집자"
+msgstr "편집"
 
 #: models/badges.py:664
 msgid "First edit"
@@ -4607,7 +4607,7 @@ msgstr "%(num)s 항목 이상을 편집함"
 
 #: models/badges.py:683
 msgid "Organizer"
-msgstr "오거나이저"
+msgstr "정리"
 
 #: models/badges.py:686
 msgid "First retag"
@@ -4615,7 +4615,7 @@ msgstr "첫 태그 수정"
 
 #: models/badges.py:693
 msgid "Autobiographer"
-msgstr "자서전 작가"
+msgstr "자서전"
 
 #: models/badges.py:696
 msgid "Completed all user profile fields"
@@ -4628,7 +4628,7 @@ msgstr ""
 
 #: models/badges.py:765
 msgid "Enthusiast"
-msgstr "개근상"
+msgstr "개근"
 
 #: models/badges.py:769
 #, python-format
@@ -4646,7 +4646,7 @@ msgstr "%(num_comments)s 개의 댓글 게시"
 
 #: models/badges.py:807
 msgid "Taxonomist"
-msgstr "정리의 달인"
+msgstr "인기 태그"
 
 #: models/badges.py:811
 #, python-format
